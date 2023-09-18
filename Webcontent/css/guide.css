@@ -1,0 +1,322 @@
+@font-face {
+    src : url("../font/SB\ 어그로\ L.ttf "); 
+    font-family: "어그로" 
+  }
+  
+/* 상단 */
+.container {
+    border-bottom: solid 2px #717171;
+}
+.container .top {
+    display: flex;
+    margin-left: 250px;   
+}
+
+.container .top h1{    
+    margin: 0;
+    width: 250px;
+}
+
+.container .top .category {
+    width: 900px;
+    text-align: center;
+    
+}
+
+.container .top .category .cat {
+    list-style-type: none;     
+    display: flex;
+    float: right;
+    margin-left: auto;
+    vertical-align: center;
+    
+}
+
+.container .top .category .cat li {
+    padding-left: 35px;
+}
+
+.container .top .category .cat a {
+    text-decoration: none;
+    font-family: "맑은 고딕";
+    color: black;
+}
+
+/* 제목 없애기 */
+h3 {
+    display: none;
+}
+
+/* 메인 틀 */
+.free {    
+    width: 1500px;
+    height: 1950px;   
+    margin: auto;
+    padding: 30px 0 0 200px;
+}
+
+/* 왼쪽 탭 */
+#left {
+    float: left;
+    width: 215px;
+    margin-top: 80px;
+    
+}
+
+#left ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;   
+}
+
+#left #title {
+    padding: 12px;
+    background-color: #fccb44fa;
+    color: #ffffff;
+    text-align: center;    
+}
+
+#left ul li{
+    padding: 7px 0 7px 30px;
+    border-left: solid 1px #cccccc;
+    border-right: solid 1px #cccccc;
+    border-bottom: solid 1px #cccccc;  
+}
+
+#left ul li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+/* 중앙 */
+
+#right_main {
+    float: left;
+    margin-top: 50px;
+    padding-left: 40px;   
+}
+
+#right_main #right .ri {
+    /*border: solid 1px black;*/
+    margin-top: 10px;
+    width: 1000px;
+    height: 1600px;       
+}
+
+/* 부제 */
+#right_main #right .ri .buze {
+    margin: 50px 0 0 120px;
+}
+
+#right_main #right .ri .buze2 {
+    margin: 50px 0 0 120px;
+}
+
+#right_main #right .ri .buze3 {
+    margin: 20px 0 0 120px;
+}
+
+/* 오토바이 */
+#right_main #right .ri .r_1 {   
+    border: solid 1px black;
+    width: 750px;
+    height: 558px;
+    margin: 10px auto;
+}
+
+#right_main #right .ri .r_1 .bicycle {    
+    border-collapse: collapse;
+    width: 750px;   
+}
+
+#right_main #right .ri .r_1 .bicycle .img{    
+    text-align: center; 
+}
+
+#right_main #right .ri .r_1 .bicycle th {
+    padding: 5px 0 5px 0;
+    border-bottom: solid 1px #adacac; 
+}
+
+#right_main #right .ri .r_1 .zero {
+    font-size: 20px
+}
+
+#right_main #right .ri .r_1 .one {
+    border-top: solid 1px #adacac;   
+    border-right: solid 1px #717171;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    width: 120px;
+    padding: 5px 0 5px 0;
+}
+
+#right_main #right .ri .r_1 .one p {
+    color: red;
+}
+
+#right_main #right .ri .r_1 .two {
+    border-top: solid 1px #adacac;   
+    padding: 0 0 0 5px;
+}
+
+#right_main #right .ri .r_1 .three {
+    border-top: solid 1px #adacac;   
+    text-align: center;
+    border-right: solid 1px #717171;
+}
+
+#right_main #right .ri .r_1 .four {
+    border-top: solid 1px #adacac;   
+    padding: 0 0 0 5px;
+}
+
+/* 라보 */
+#right_main #right .ri .r_2 {   
+    border: solid 1px black;
+    width: 750px;
+    height: 535px;
+    margin: 10px auto;
+}
+
+#right_main #right .ri .r_2 .labo {    
+    border-collapse: collapse;
+    width: 750px;
+}
+
+
+#right_main #right .ri .r_2 .labo th {
+    padding: 5px 0 5px 0;
+    border-bottom: solid 1px #adacac; 
+}
+
+#right_main #right .ri .r_2 .labo .img {
+   text-align: center;
+}
+
+#right_main #right .ri .r_2 .zero {
+    font-size: 20px
+}
+
+#right_main #right .ri .r_2 .one {
+    border-top: solid 1px #adacac;   
+    border-right: solid 1px #717171;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    width: 120px;
+    padding: 5px 0 5px 0;
+}
+
+#right_main #right .ri .r_2 .one p {
+    color: red;
+}
+
+#right_main #right .ri .r_2 .two {
+    border-top: solid 1px #adacac;   
+    padding: 0 0 0 5px;
+}
+
+#right_main #right .ri .r_2 .three {
+    border-top: solid 1px #adacac;   
+    text-align: center;
+    border-right: solid 1px #717171;
+}
+
+#right_main #right .ri .r_2 .four {
+    border-top: solid 1px #adacac;   
+    padding: 0 0 0 5px;
+}
+
+/* 뚜벅이 */
+#right_main #right .ri .r_3 {   
+    border: solid 1px black;
+    width: 750px;
+    height: 430px;
+    margin: 10px auto;
+}
+
+#right_main #right .ri .r_3 .dubuk {    
+    border-collapse: collapse;
+    width: 750px;
+}
+
+#right_main #right .ri .r_3 .dubuk .img{    
+    text-align:center;
+}
+
+#right_main #right .ri .r_3 .dubuk th {
+    padding: 5px 0 5px 0;
+    border-bottom: solid 1px #adacac; 
+}
+
+#right_main #right .ri .r_3 .zero {
+    font-size: 20px
+}
+
+#right_main #right .ri .r_3 .one {
+    border-top: solid 1px #adacac;   
+    border-right: solid 1px #717171;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    width: 120px;
+    padding: 5px 0 5px 0;
+}
+
+#right_main #right .ri .r_3 .one p {
+    color: red;
+}
+
+#right_main #right .ri .r_3 .two {
+    border-top: solid 1px #adacac;   
+    padding: 0 0 0 5px;
+}
+
+#right_main #right .ri .r_3 .three {
+    border-top: solid 1px #adacac;   
+    text-align: center;
+    border-right: solid 1px #717171;
+}
+
+#right_main #right .ri .r_3 .four {
+    border-top: solid 1px #adacac;   
+    padding: 0 0 0 5px;
+}
+
+
+
+
+
+
+
+
+ .search-window { /*상단*/
+    margin-top: -193px;
+    margin-left: -4000px;
+    width: 8500px;
+    padding: 15px 0;
+    background-color: hsl(36, 92%, 49%);
+    height: 160px;
+  }
+
+  .Notice h1{
+    margin-top: 177px;
+    float: left;
+    color: #ffffff; 
+    width: 1250px ;   
+    font-size: 40px;
+    padding-left: 30px;
+    margin-left: -40px;
+    border-bottom: solid 5px #ffffff;
+    font-family: '어그로';
+    }
+
+    .color1 {
+        border: 1px solid #717171;
+        width: 1200px;
+        height: 159px;
+        margin: auto;
+    }

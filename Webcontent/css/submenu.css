@@ -1,0 +1,55 @@
+@font-face {
+  src : url("../font/SB어그로M.ttf "); 
+  font-family: "어그로" 
+}
+*{
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+#sub_menu{
+  z-index:110; 
+  left:0;
+  right:auto; 
+  border: solid 2px #cccccc;
+  width: 150px; 
+  height: 500px;
+  margin: 80px 10px; 
+   
+  position: fixed;
+}
+#sub_menu h1{
+  text-align: center;
+  font-size: 20px;
+  height: 50px;
+}
+#sub_menu ul{
+  text-align: center;
+}
+#sub_menu li{
+  padding: 15px 0;
+}
+#sub_menu li a:link{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+ 
+}
+#sub_menu li a:visited{  
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+ font-weight: bold;
+}
+#sub_menu li a:active{  
+  text-decoration: none;
+  color:white;
+   color: rgb(0, 0, 0);
+  font-weight: bold;
+  
+}
+#sub_menu li:hover{  
+  text-decoration: none;
+  background-color:antiquewhite;
+  font-weight: bold;
+}
+

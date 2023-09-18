@@ -1,0 +1,41 @@
+@font-face {
+  src : url("../font/SB어그로M.ttf "); 
+  font-family: "어그로" 
+}
+
+form {
+font-family: "어그로";
+font-size:20px
+}
+
+
+.IP{
+  color: #ffffff;
+		display: block;
+		width: 200px;
+		font-weight: bolder;
+		margin-top: 10px;
+		margin-left: 80px;
+		padding: 13px 0 13px;
+		border-radius: 6px;
+		border: solid 1px rgba(0,0,0,.15);
+		background-color: #d657029a;
+		box-sizing: border-box;
+		font-size: 15px;
+}
+
+.IP:hover{
+  color: #ffffff;
+		display: block;
+		width: 200px;
+		font-weight: bolder;
+		margin-top: 10px;
+		margin-left: 80px;
+		padding: 13px 0 13px;
+		border-radius: 6px;
+		border: solid 1px rgba(0,0,0,.15);
+		background-color: #e2620c9a;
+		box-sizing: border-box;
+		font-size: 15px;
+    cursor: pointer;
+}

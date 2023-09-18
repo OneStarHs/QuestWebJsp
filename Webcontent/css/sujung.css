@@ -1,0 +1,299 @@
+@font-face {
+  src : url("../font/SB어그로M.ttf "); 
+  font-family: "어그로" 
+  }
+  
+
+/* 제목 */
+h3 {
+    display: none;
+}
+
+/* 중간 틀 */
+.free {
+    /* border: solid 1px black; */
+    width: 1500px;
+    height: 800px;
+    margin: auto;
+    padding: 67px 0 150px 150px;  
+}
+
+/* 왼쪽 탭 */
+#left {
+    float: left;
+    width: 215px;
+    margin-top: 15px;
+    padding-left: 30px;
+}
+
+#left .secu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;   
+}
+
+
+
+#left #title {
+    padding: 12px;
+    background-color: #fccb44fa;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+
+#left .secu li{
+    padding: 7px 0 7px 30px;
+    border-left: solid 1px #cccccc;
+    border-right: solid 1px #cccccc;
+    border-bottom: solid 1px #cccccc;  
+}
+
+#left .secu li a {
+    text-decoration: none;
+    color: black;
+}
+
+#left .secu .security {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+#left .secu .security li {
+    border: 0;
+    text-align: left;
+    padding: 5px 0 0 0;
+}
+
+#check-btn {
+    display: none;
+}
+
+#check-btn:checked ~ .menubars {
+    display: block;
+}
+
+.menubars {
+    display: none;
+    list-style-type: none;
+    padding: 0;    
+}
+
+/* 정보 표 */
+#T .Tb{    
+    padding: 0 0 0 240px;
+    width: 1000px;     
+}
+
+#T .Tb h4 {
+    padding: 15px 0 15px 150px;
+}
+
+#T .Tb .t_b {
+    width: 600px;
+    margin-left: 160px;
+    border: 0px;    
+}
+
+#T .Tb .t_b .txt_1, .txt_2, .txt_3, .txt_4, .txt_5{
+    width: 400px;
+    height: 48px;
+    padding: 0;
+    border: 1px solid rgb(224, 149, 50);
+    line-height: 31px;
+}
+
+
+
+.txt_last { /*회원정보 입력창 테두리*/
+    font-weight: bold;
+    text-align: left;
+    background-color: #ffffff;
+    border-bottom: solid 0px #ffe09f;
+    padding: 15px;
+    width: 490px;
+    height: 50px;
+    }
+
+
+ input[type="text"]:focus {
+    outline: 1px solid #ff9900; /* 예시: 파란색 테두리를 추가 */
+  }
+  
+  
+  input[type="txt_3"]:focus {
+    outline: 1px solid #ff9900; /* 예시: 파란색 테두리를 추가 */
+  }
+  
+    input[type="password"]:focus {
+    outline: 1px solid #ff9900; /* 예시: 파란색 테두리를 추가 */
+  }
+  
+
+
+
+#T .Tb .t_b tr {
+    border-bottom: solid 1px #717171;
+    border-top: solid 1px #717171;    
+}
+
+#T .Tb .t_b th{
+    font-size: 16px;
+    font-family: "맑은 고딕";    
+    width: 281px;
+    height: 62px;
+    text-align: right;
+    color: #3a2104;
+    font-weight: bold;
+    background: #ffffff;
+    border: solid 0px #3a1a01;
+}
+
+
+
+
+
+/* 수정 버튼 */
+#T .Tb .bb .but {
+margin: 35px 0 0 360px; 
+width: 220px;
+height: 55px;
+line-height: 53px;
+font-size: 18px;
+border: none;
+border-radius:10px;
+outline-color: transparent;
+outline-style:solid;
+box-shadow: 0 0 0 2px #d16c1a;
+background: hsl(36, 92%, 49%);
+border: 1px solid #ffb74a;
+color: #fff;
+font-weight: bold;
+}
+
+#T .Tb .bb .but:hover {
+margin: 35px 0 0 360px; 
+width: 220px;
+height: 55px;
+line-height: 53px;
+font-size: 18px;
+border: none;
+border-radius:10px;
+outline-color: transparent;
+outline-style:solid;
+box-shadow: 0 0 0 2px #d16c1a;
+background: hsl(36, 93%, 56%);
+border: 1px solid #ffb74a;
+color: #fff;
+font-weight: bold;
+cursor: pointer;
+}
+
+
+.search-window {
+    margin-top: -193px;
+    margin-left: -4000px;
+    width: 8500px;
+    padding: 15px 0;
+    background-color: hsl(36, 92%, 49%);
+    height: 160px;
+  }
+
+  .Notice h1{
+    margin-top: 67px;
+    
+    float: left;
+    color: #ffffff; 
+    width: 1250px ;   
+    font-size: 40px;
+    padding-left: 30px;
+    margin-left: -40px;
+    border-bottom: solid 5px #ffffff;
+    font-family: '어그로';
+    }
+
+    .color1 {
+        /* border: 1px solid #717171; */
+        width: 1200px;
+        height: 159px;
+        margin: auto;
+    }
+
+    .search-window { /*상단*/
+        margin-top: -1px;
+        margin-left: -4000px;
+        width: 8500px;
+        padding: 15px 0;
+        background-color: hsl(36, 92%, 49%);
+        height: 158px;
+      }
+    
+      .Notice h2{
+        margin-top: 67px;
+        float: left;
+        color: #ffffff; 
+        width: 1250px ;   
+        font-size: 40px;
+        padding-left: 30px;
+        margin-left: -40px;
+        border-bottom: solid 5px #ffffff;
+        font-family: '어그로';
+        }
+    
+        .color1 {
+            border: 1px solid #717171;
+            width: 1200px;
+            height: 157px;
+            margin: auto;
+        }
+    
+        #addbtn .addch{
+            width: 100px;
+            height: 48px;
+            margin: -54px 0 0 156px;
+            border:1px solid #db6e00; 
+            background-color: #dd8a0c;
+            color: aliceblue;
+            position: absolute;
+        }
+          
+           #addbtn .addch:hover{
+            width: 100px;
+            height: 48px;
+            margin: -54px 0 0 156px;
+            border:1px solid #db6e00;   
+            background-color: #ee9c20;
+            color: aliceblue;
+            position: absolute;
+            cursor: pointer;
+           }
+           
+
+           #error {
+            color: #bd0000c9; 
+            margin-left: 310px;
+            width: 1200px;
+            font-weight: bold;
+            font-size: 15px;
+            z-index: 1;
+            position: absolute;
+            display: block;
+          }
+
+           #error #pwd_error{
+            margin-top: -453px;
+            position: absolute;
+            display: block;
+          }
+        
+          #error #pwd_match_error{
+            margin-top: -372px;
+            position: absolute;
+            display: block;
+          }
+
+          #error #phone_error{
+            margin-top: -290px;
+            position: absolute;
+            display: block;
+          }

@@ -1,0 +1,162 @@
+@font-face {
+  src : url("../font/SB어그로M.ttf "); 
+  font-family: "어그로" 
+}
+
+
+#singmain {
+  display: block;
+  width: 1200px;  
+  padding-left: 500px;
+}
+
+
+/* .info h3 {
+display: block;
+margin-top: 70px;
+margin-bottom: 60px;
+float: left;
+color: #88552b; 
+width: 1000px ;   
+font-size: 30px;
+border-bottom: solid 4px #ac6100;
+margin-left: -180px;
+} */
+
+tbody {
+display: table-row-group;
+vertical-align: middle;
+border-color: inherit;
+}
+
+
+.txt-field .text {
+width: 400px;
+height: 31px;
+padding: 0;
+border: 1px solid rgb(105, 60, 0);
+color: #333;
+line-height: 31px;
+}
+
+
+input[type="password"]:focus {
+  outline: 1px solid #ff9900; /* 예시: 파란색 테두리를 추가 */
+}
+
+
+input[type="text"]:focus {
+  outline: 1px solid #ff9900; /* 예시: 파란색 테두리를 추가 */
+}
+
+
+.ta-l{
+padding-left: 10px;
+color: #3a2104;
+font-size: 13px;
+font-weight: bold;
+background: #fffbf5 ;
+text-align: left;
+border-bottom: solid 1px #3a1a01;
+}
+
+.td-l { /*회원정보 입력창 테두리*/
+font-weight: bold;
+text-align: left;
+background-color: #ffffff;
+border-bottom: solid 1px #863c00;
+padding: 10px;
+width: 490px;
+height: 50px;
+}
+
+element.style {
+border: 1px solid rgb(208, 208, 208);
+}
+
+
+.skinbtn.point1 {
+background: #ffffff;
+border: 1px solid #bb5d00;
+color: #bb5d00;
+font-weight: bold;
+margin-left: -30px;
+}
+
+.skinbtn.point2 {
+background: #b45a00;
+border: 1px solid #bb5d00;
+color: #fff;
+font-weight: bold;
+margin-left: 60px;
+}
+
+.skinbtn {
+display: inline-block;
+height: 40px;
+padding: 0 5px;
+text-align: center;
+vertical-align: top;
+box-sizing: border-box;
+cursor: pointer;
+font-size: 12px;
+margin-top: 20px;
+}
+
+.join {  
+  margin: auto; 
+  padding-left: 10px;
+}
+
+.join .skinbtn.point1.ja-prev, .join .skinbtn.point2.ja-next, .join .skinbtn.point1.j-cancel, .join .skinbtn.point2.j-join {
+width: 180px;
+height: 55px;
+line-height: 53px;
+font-size: 18px;
+border: none;
+border-radius:30px;
+margin-top: 30px;
+outline-color: transparent;
+outline-style:solid;
+box-shadow: 0 0 0 3px #a74b00;
+}
+
+.btn {
+margin-top: 20px;
+margin-left: 150px;
+margin-bottom: 200px;
+font-style:normal;
+}
+
+.search-window { /*상단*/
+  margin-top: -192px;
+  margin-left: -4000px;
+  width: 8500px;
+  padding: 15px 0;
+  background-color: hsl(36, 92%, 49%);
+  height: 160px;
+}
+
+.Notice h1{
+  margin-top: 67px;
+  float: left;
+  color: #ffffff; 
+  width: 1250px ;   
+  font-size: 40px;
+  padding-left: 30px;
+  margin-left: -40px;
+  border-bottom: solid 5px #ffffff;
+  font-family: '어그로';
+  }
+
+  .color1 {
+      /* border: 1px solid #717171; */
+      width: 1200px;
+      height: 190px;
+      margin: auto;
+  }
+
+  a{
+    text-decoration-line: none;
+    color: rgb(255, 255, 255);
+  }

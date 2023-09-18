@@ -1,0 +1,306 @@
+@font-face {
+    src : url("../font/SB\ 어그로\ L.ttf "); 
+    font-family: "어그로" 
+  }
+
+  @font-face {
+    src : url("../font/SUIT-ExtraBold.ttf"); 
+    font-family: "수트" 
+  }
+  
+/* 제목 */
+h3 {
+    display: none;
+}
+
+/* 칭호 창 틀 */
+.middle {
+    width: 1400px;
+    margin: auto;
+}
+
+/* 칭호 및 머니 창 */
+.me {
+    padding: 35px 30px 30px 30px;    
+    
+}
+
+.me .name {    
+    height: 150px;    
+    height: 150px;    
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 3px #eec200;
+    display: flex;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.me .name .f {
+    margin-top: 30px;
+    width: 100px;
+    padding:0 0 0 50px;
+}
+
+.me .name .ching {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 180px 0 60px;
+    width: 400px;
+}
+
+.me .name .ching li {
+    padding-top: 25px;
+}
+
+.me .name .ee {
+    list-style-type: none;
+    margin-right: 10px;
+    padding: 10px 10px 0 200px;
+}
+
+.me .name .ee li {
+    padding-top: 30px;
+}
+
+.me .name .money {
+    list-style-type: none;
+    margin-right: 10px;
+    padding: 10px 0 0 5px;
+}
+
+.me .name .money li {
+    padding-top: 20px;
+    text-align: right;
+}
+
+
+/* 중간 틀 */
+.free {
+    /* border: solid 1px black; */
+    width: 1500px;
+    height: 800px;
+    margin: auto;
+    padding: 40px 0 0 150px;  
+}
+
+/* 왼쪽 탭 */
+#left {
+    float: left;
+    width: 215px;
+    margin-top: 15px;
+    padding-left: 30px;
+}
+
+#left .secu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;   
+}
+
+#left #title {
+    padding: 12px;
+    background-color: #fccb44fa;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;    
+}
+
+#left .secu li{
+    padding: 7px 0 7px 30px;
+    border-left: solid 1px #cccccc;
+    border-right: solid 1px #cccccc;
+    border-bottom: solid 1px #cccccc;  
+}
+
+#left .secu li a {
+    text-decoration: none;
+    color: black;
+}
+
+#left .secu .security {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+#left .secu .security li {
+    border: 0;
+    text-align: left;
+    padding: 5px 0 0 0;
+}
+
+#check-btn {
+    display: none;
+}
+
+#check-btn:checked ~ .menubars {
+    display: block;
+}
+
+.menubars {
+    display: none;
+    list-style-type: none;
+    padding: 0;    
+}
+
+
+/* 중앙 메인 */
+#right {    
+    float: left;
+    margin: 10px 0 0 70px;    
+    width: 1000px;
+}
+
+#right_main #right .title {
+    padding: 0 0 0 20px;
+    margin: 0 0 50px 0;
+}
+
+#right_main #right .title .table {
+    margin-bottom: 30px;
+}
+
+#right_main #right .title ul {
+    list-style-type: none;
+    width: 850px;
+       
+}
+
+#right_main #right .title .dong {
+    padding-bottom: 10px;
+}
+
+#right_main #right .title .st_1 {
+    margin: 10px 0 5px 0;
+}
+
+#right_main #right .title .st_2 li {
+    padding: 10px 0 10px 0;
+}
+
+#right_main #right .title .chingho {
+    margin: 15px 0 5px 0;
+}
+
+#right_main #right .title .ho{
+    display: flex;
+    margin: 0;
+}
+
+#right_main #right .title .ho li {
+    padding-left: 35px;
+    height: 20px;   
+}
+
+#right_main #right .title .in {
+    margin-top: 30px;
+    float: left;
+}
+
+#right_main #right .title .in .i_1 {
+    padding-right: 25px;
+}
+
+#right_main #right .title .in .i_2 {
+    padding-right: 25px;
+}
+
+#right_main #right .song {
+	display: flex;
+	margin: 50px 0 ;
+}
+
+#right_main #right .song img {
+	margin: 0 0 0 48px;
+}
+
+#right_main #right .song p{
+margin: 5px 50px 10px 10px;
+}
+
+#right_main #right .eruk .nal {
+	display: flex;
+}
+
+#right_main #right .eruk .kk {
+	margin: 30px 0;
+	width: 750px;
+	text-align:center;
+	border-collapse: collapse;
+}
+
+#right_main #right .eruk .kk .myfline {
+	margin: 25px 0 0 50px;
+	width: 850px;
+    height: 40px;
+	text-align:center;   
+	border-collapse: collapse;
+    border-radius: 60px;
+    border-bottom: 0.5px solid #d1cfce;
+    color: #584c3b;
+    font-weight: bolder;
+    font-family: 수트;
+}
+#right_main #right .eruk .kk .mysline {
+	margin: 25px 0 0 50px;
+	width: 850px;
+    height: 40px;
+	text-align:center;
+}
+
+.song > div{
+  margin: 0 20px 0 0;
+  padding: 10px 10px;
+  border-radius: 10px;
+  background-color: #b3b1b123;;
+  height: 100px;
+  font-size: 15px;
+  font-weight: bolder;
+    font-family: 수트;
+    color: #585858;; 
+}
+
+#right_main .receipt{
+  margin: 10px 80px;
+  color: #ec9b4f;
+  font-size: 30px;
+}
+
+#right_main #right .eruk .kk .pagination {
+	margin: 10px 0 0 0;
+}
+
+#right_main #right .eruk .kk .pagination li{
+  display: inline-block;
+  }
+#right_main #right .eruk .kk .pagination li a{
+    color: #333;
+  }
+
+.search-window { /*상단*/
+    margin-top: -163px;
+    margin-left: -4000px;
+    width: 8500px;
+    padding: 15px 0;
+    background-color: hsl(36, 92%, 49%);
+    height: 160px;
+  }
+
+  .Notice h1{
+    margin-top: 66px;
+    
+    float: left;
+    color: #ffffff; 
+    width: 1250px ;   
+    font-size: 40px;
+    padding-left: 30px;
+    margin-left: -40px;
+    border-bottom: solid 5px #ffffff;
+    font-family: '어그로';
+    }
+
+    .color1 {
+        border: 1px solid #717171;
+        width: 1200px;
+        height: 159px;
+        margin: auto;
+    }

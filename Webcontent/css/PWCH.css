@@ -1,0 +1,193 @@
+@font-face {
+  src : url("../font/SB어그로M.ttf "); 
+  font-family: "어그로" 
+}
+
+
+
+
+
+.skinbtn.point1 {
+margin-top: 150px;
+margin-bottom: 70px;
+background: #ffffff;
+color: #bb5d00;
+font-weight: bold;
+}
+
+.skinbtn.point2 {
+  background: #ffffff;
+  color: #bb5d00;
+  font-weight: bold;
+  margin-bottom: 250px;
+}
+
+.skinbtn {
+display: inline-block;
+height: 40px;
+padding: 0 5px;
+text-align: center;
+vertical-align: top;
+box-sizing: border-box;
+cursor: pointer;
+font-size: 12px;
+right: 500px;
+}
+
+.join {  
+  margin: auto; 
+  padding-left: 10px;
+}
+
+.join .skinbtn.point1.ja-prev, .join .skinbtn.point2.ja-next, .join .skinbtn.point1.j-cancel, .join .skinbtn.point2.j-join {
+width: 750px;
+height: 130px;
+line-height:53px;
+font-size: 50px;
+border: none;
+border-radius:100px;
+outline-color: transparent;
+outline-style:solid;
+box-shadow: 0 0 0 8px #8f4000;
+}
+
+.find{
+  margin: auto;
+  width: 800px;
+}
+
+
+.search-window { /*상단*/
+  margin-top: -1px;
+  margin-left: -4000px;
+  width: 8500px;
+  padding: 15px 0;
+  background-color: hsl(36, 92%, 49%);
+  height: 160px;
+}
+
+.Notice h1{
+  margin-top: 67px;
+  float: left;
+  color: #ffffff; 
+  width: 1250px ;   
+  font-size: 40px;
+  padding-left: 30px;
+  margin-left: -40px;
+  border-bottom: solid 5px #ffffff;
+  font-family: '어그로';
+  }
+
+  .color1 {
+      /* border: 1px solid #717171; */
+      width: 1200px;
+      height: 190px;
+      margin: auto;
+  }
+
+  a{
+    text-decoration-line: none;
+    color: rgb(255, 255, 255);
+  }
+
+  p{
+    color: rgb(177, 0, 0);
+    margin-top:0px;
+    margin-bottom: 5px;
+  }
+
+  .clear{
+    clear: both;
+  }
+  #loginmain {
+    width: 1200px;   
+    margin: 0 auto;
+  }
+  #loginP {
+    display: block;
+    width: 1200px;  
+    margin: auto;
+  }
+  .joinP{
+    margin: 30px 10px;
+  }
+  
+  .info h3 {
+  margin-top: 70px;
+  margin-bottom: 60px;
+  color: #88552b; 
+  width: 1150px ;   
+  font-size: 30px;
+  border-bottom: solid 4px #ac6100;
+  }
+  .login_input{
+    border: solid 3px #1a2fec3b;
+    height: 300px;
+    width: 450px;
+  }
+  #find_box{
+    width: 500px;
+    height: 300px;
+    margin: 70px auto 100px;
+    padding: 0px;
+    border: solid 1px #dddddd;
+    border-radius: 10px;
+    background-color: #f0e7cca2;
+  }
+  #find_box .boxin{
+    margin: 30px;
+  }
+  #login_title{
+    margin: 0px 0 0 10px;
+  }
+  #input_button{
+    margin: auto;
+  }
+  #find_input{
+    margin: 20px 0 10px 0;
+  }
+  #find_input input{
+    width: 430px;
+    height: 48px;
+    margin: 5px 0;
+    border: solid 1px #dddddd;
+  }
+  #find_input input:focus{
+    border-color: #aa5200d7;
+    outline: 0;
+    border-width: 1px;
+  }
+  
+  #find_input li{
+    margin-top: 2px;
+  }
+  #find_btn {
+    color: #ffffff;
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 13px 0 13px;
+    border-radius: 6px;
+    border: solid 1px rgba(0,0,0,.15);
+    background-color: #eea3009a;
+    box-sizing: border-box;
+    font-size: 15px;
+  }
+  
+  #find_btn:hover, .btn-dark:focus {
+    background: #b179009a;
+    border-color: #463000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  
+  #join_search{
+    margin: 10px 0 0 40px;
+  }
+  #join_search >a{
+    color: #777777;
+    font-size: 14px;
+    margin: 0 1px;
+    text-decoration: none;
+  }

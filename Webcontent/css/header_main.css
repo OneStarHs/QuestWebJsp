@@ -1,0 +1,169 @@
+@font-face {
+  src : url("../font/SB어그로M.ttf "); 
+  font-family: "어그로" 
+  
+}
+@font-face {
+  src : url("../font/Maplestory\ Bold.ttf "); 
+  font-family: "메이플" 
+}
+
+
+
+
+
+header #logo {
+  /* margin-left: auto; */
+  /* border: solid #ffffff 3px; */
+  position: relative;
+  z-index: 2;
+  /* display: block; */
+  float: left;
+  width: 400px;
+  top: 0px;
+  left: 994px;
+  transform: translateX(-50%);
+}
+
+header {
+  height: 80px;
+  width: 2003px;
+  padding-top: 20px;
+  position: absolute;
+  display: block;
+  margin: 0 auto;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  justify-content: center;
+}
+
+header #header_main{
+  height: 80px;
+  width: 12003px;
+  background-color:transparent;
+  padding-bottom: 80px;
+  margin-top: -20px;
+  margin-left: -180%;
+  position: relative;
+}
+
+
+
+header #menutitle{
+  height: 80px;
+  width: 2003px;
+}
+
+header #top_menu{
+  position: relative;
+  background-repeat: no-repeat; 
+ /* width: 300px;*/
+  text-align: center;
+  margin-right: 150px;
+  float: right;
+  /* border: solid 2px #ec9c08; */
+}
+header #top_menu a{
+  color: #ffffff;
+  text-decoration: none;
+  padding: 3px;
+  font-size: 15px;
+}
+
+
+
+header #menu{
+  width: 1300px;
+  height: 160px;
+  margin-top: -32px;
+  /* background-image: url("img/header.png");  */
+  background-repeat: no-repeat; 
+  position: absolute;
+  top: 0px;
+  margin-left: 0px;
+}
+
+
+header #main_menu{
+  width: 1400px;
+  height: 38px;
+  background-repeat: no-repeat; 
+  position: absolute;
+  top: 40px;
+  left: 380px; 
+}
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+header #main_menu .menu{
+  position: absolute;
+  /* font-weight: bold; */
+  text-align: center; 
+  margin-top: 210px; 
+  margin-left: 1200px;
+  
+}
+header #main_menu .menu p{
+  font-size: 30px;
+  color: #ffffff;
+  font-family: '어그로';
+  animation: fadeInLeft 1s;
+}
+header #main_menu .sub1{  
+  font-size: 15px;
+  font-family: '어그로';
+  padding-top: 20px;
+}
+
+header #main_menu a:link{
+  text-decoration: none;
+  color: white;
+}
+header #main_menu a:visited{  
+  text-decoration: none;
+  color:white;
+}
+header #main_menu a:hover{  
+  text-decoration: none;
+  color: black;
+}
+header #main_menu a:active{  
+  text-decoration: none;
+  color:darkblue;
+}
+
+/* 서브 메뉴 */
+
+.menu li .sub-menu {
+  display: none;
+  position: absolute;
+  margin: 0;
+  padding: 0; 
+  width: 150px;
+  font-size: 15px;  
+}
+
+.menu li:hover .sub-menu {
+  /* display: block; */
+  border: solid 3px #fceab8;
+  width: 160px;  
+  text-align: left;
+  background-color: #f5c152;
+  margin: 0;
+  padding: 0;
+  border-bottom-left-radius: 10px;
+  border-radius: 10px;  
+}
+.menu li:hover >.sub-menu >li {
+  padding: 10px ;   
+}    

@@ -1,0 +1,51 @@
+@font-face {
+  src : url("../font/SB\ 어그로\ L.ttf "); 
+  font-family: "어그로" 
+}
+.clear{
+  clear: both;
+}
+.free {
+  width: 1500px;  
+  height: auto;
+  margin: 20px auto;    
+}
+
+
+/* 모집공고 */
+table {
+  border-collapse: collapse;
+  position: relative;
+}
+.con01{
+  margin:50px auto;
+}
+.con02{
+  margin:  auto;
+}
+.con02 h2{
+  font-size: 25px;
+}
+.con03{
+  margin-top: 100px 0;
+  padding: 30px;
+  font-size: 20px;  
+  border: dotted 2px #1f1a1650 ;
+}
+.con03  th{
+  text-align: left;
+  width: 350px;
+}
+#ptnj_btn1{
+  margin: 50px 0 0 600px
+}
+#ptnj_btn{
+  width: 300px;
+  height: 60px;
+  font-size: 20px;
+}
+#ptnj_btn a{
+  color: rgb(10, 10, 10);
+  text-decoration: none;
+}
+

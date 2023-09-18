@@ -1,0 +1,40 @@
+@font-face {
+  src : url("../font/SB\ 어그로\ M.ttf "); 
+  font-family: "어그로" 
+  
+}
+@font-face {
+  src : url("../font/Maplestory\ Bold.ttf "); 
+  font-family: "메이플" 
+}
+header{
+  height: 100px;
+  width: 1903px;
+  padding-top: 20px 30px 30px 30px;
+  position: relative;
+  margin: auto;
+  padding-bottom: 30px;
+  background-color: rgb(255, 255, 255);
+  border-bottom: dot 3px #ec9c08;
+}
+.adminH{
+margin: 50px 0 0 250px ; 
+width: 190px;
+}
+
+header #top_menu{
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top:1px;
+  float: right;
+  /* border: solid 2px #ec9c08; */
+}
+
+header #main_menu .sub1{
+  display: inline-block;
+  margin: 16px 70px 0px 20px;   
+  font-size: 25px;
+  font-family: '어그로';
+  padding-top: 10px;
+}
+  

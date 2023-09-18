@@ -1,0 +1,267 @@
+.container {
+	border-bottom: solid 2px #717171;
+}
+
+.container .top {
+	display: flex;
+	margin-left: 250px;
+}
+
+.container .top h1 {
+	margin: 0;
+	width: 250px;
+}
+
+.container .top .category {
+	width: 900px;
+	text-align: center;
+}
+
+.container .top .category .cat {
+	list-style-type: none;
+	display: flex;
+	float: right;
+	margin-left: auto;
+	vertical-align: center;
+}
+
+.container .top .category .cat li {
+	padding-left: 35px;
+}
+
+.container .top .category .cat a {
+	text-decoration: none;
+	font-family: "맑은 고딕";
+	color: black;
+}
+
+/* 제목 */
+h3 {
+	display: none;
+}
+
+/* 칭호 창 틀 */
+.middle {
+	width: 1700px;
+	margin: auto;
+}
+
+/* 칭호 및 머니 창 */
+.me {
+	padding: 35px 30px 30px 30px;
+}
+
+.me .name {
+	height: 150px;
+	background-color: #afe7ed;
+	display: flex;
+	border-radius: 30px 30px 30px 30px;
+}
+
+.me .name .f {
+	margin-top: 30px;
+	width: 100px;
+	padding: 0 0 0 50px;
+}
+
+.me .name .ching {
+	list-style-type: none;
+	margin: 0;
+	padding: 0 250px 0 60px;
+	width: 350px;
+}
+
+.me .name .ching li {
+	padding-top: 25px;
+}
+
+.me .name .ee {
+	list-style-type: none;
+	margin-right: 10px;
+	padding: 0 10px 0 450px;
+}
+
+.me .name .ee li {
+	padding-top: 30px;
+}
+
+.me .name .money {
+	list-style-type: none;
+	margin-right: 10px;
+	padding: 0 0 0 10px;
+}
+
+.me .name .money li {
+	padding-top: 20px;
+	text-align: right;
+}
+
+/* 중간 틀 */
+.free {
+	/* border: solid 1px black; */
+	width: 1500px;
+	height: 800px;
+	margin: auto;
+	padding: 40px 0 0 150px;
+}
+
+/* 왼쪽 탭 */
+#left {
+	float: left;
+	width: 215px;
+	margin-top: 15px;
+	padding-left: 30px;
+}
+
+#left .secu {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+#left #title {
+	padding: 12px;
+	background-color: #fccb44fa;
+	color: #ffffff;
+	text-align: center;
+	font-weight: bold;
+}
+
+#left .secu li {
+	padding: 7px 0 7px 30px;
+	border-left: solid 1px #cccccc;
+	border-right: solid 1px #cccccc;
+	border-bottom: solid 1px #cccccc;
+}
+
+#left .secu li a {
+	text-decoration: none;
+	color: black;
+}
+
+#left .secu .security {
+	list-style-type: none;
+	padding-left: 10px;
+}
+
+#left .secu .security li {
+	border: 0;
+	text-align: left;
+	padding: 5px 0 0 0;
+}
+
+#check-btn {
+	display: none;
+}
+
+#check-btn:checked ~ .menubars {
+	display: block;
+}
+
+.menubars {
+	display: none;
+	list-style-type: none;
+	padding: 0;
+}
+
+/* 회원 탈퇴 창 */
+#right_main #right .title .o {
+	padding: 15px 0 10px 315px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#right_main #right .title .t {
+	border-top: solid 2px #fccb44fa;
+	width: 1000px;
+	height: 700px;
+	margin: 0 189px 0 309px;
+}
+
+#right_main #right .title .t .te {
+	/* border: solid 1px black; */
+	width: 950px;
+	margin: 20px 358px 0 40px;
+}
+
+#right_main #right .title .t .te .radi {
+	padding-top: 5px;
+}
+
+#right_main #right .title .t .te ul {
+	margin: 0 0 0 10px;
+	padding: 0 0 5px 0;
+	list-style-type: none;
+}
+
+#right_main #right .title .t .te h4 {
+	margin: 10px 0 5px 3px;
+	padding: 0;
+}
+
+#right_main #right .title .t .te p {
+	margin: 0 0 5px 10px;
+	padding: 0;
+}
+
+#right_main #right .title .t .m {
+	border-collapse: collapse;
+	margin: 20px 358px 0 40px;
+	width: 300px;
+}
+
+#right_main #right .title .t .bye {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.outbt {
+	display: inline-block;
+	height: 40px;
+	padding: 0 5px;
+	text-align: center;
+	vertical-align: top;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin-top: 20px;
+	background: hsl(36, 92%, 49%);
+	color: #fff;
+	font-weight: bold;
+	margin-left: 29px;
+	width: 220px;
+	height: 55px;
+	line-height: 53px;
+	font-size: 18px;
+	border: none;
+	border-radius: 10px;
+	margin-top: 50px;
+	outline-color: transparent;
+	outline-style: solid;
+	box-shadow: 0 0 0 2px #d16c1a;
+}
+
+.outbt:hover {
+	display: inline-block;
+	height: 40px;
+	padding: 0 5px;
+	text-align: center;
+	vertical-align: top;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin-top: 20px;
+	background: hsl(36, 93%, 56%);
+	color: #fff;
+	font-weight: bold;
+	margin-left: 29px;
+	width: 220px;
+	height: 55px;
+	line-height: 53px;
+	font-size: 18px;
+	border: none;
+	border-radius: 10px;
+	margin-top: 50px;
+	outline-color: transparent;
+	outline-style: solid;
+	box-shadow: 0 0 0 2px #d16c1a;
+	cursor: pointer;
+}
